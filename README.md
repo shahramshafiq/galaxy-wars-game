@@ -4,8 +4,11 @@ A 2D space shooter game built in C++ using SFML, made for the Object-Oriented Pr
 
 ## Contents
 
-- **`GalaxyWars/`** — the Visual Studio project used for development (source code, assets, and project files). Open `GalaxyWars.sln` in Visual Studio to build and run.
-- **`24i-2541_A_GALAXYWARS/`** — the final version submitted for course grading, including the Project Report and UML diagrams.
+- **`GalaxyWars/`** — project source code (`.h` / `.cpp`) and Visual Studio project files.
+- **`Sprites/`, `Music/`, `arial/`** — game assets (images, audio, font), loaded at runtime relative to the solution folder.
+- **`GalaxyWars.sln`** — Visual Studio solution file.
+- **`Project Report.pdf`** — final project report submitted for grading.
+- **`UML.pdf`** — UML diagrams for the project.
 
 ## Tech
 
@@ -15,6 +18,6 @@ A 2D space shooter game built in C++ using SFML, made for the Object-Oriented Pr
 
 ## Building
 
-1. Open `GalaxyWars/GalaxyWars.sln` in Visual Studio.
-2. Make sure SFML is set up (headers/libs already referenced by the project).
-3. Build and run (x64, Debug/Release).
+1. Open `GalaxyWars.sln` in Visual Studio.
+2. Make sure SFML 2.6.1 is installed and available to the project (headers/libs referenced by the project settings).
+3. Build and run (x64, Debug/Release) — assets load relative to the solution folder, so run it from Visual Studio rather than moving the `.exe` elsewhere.

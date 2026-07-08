@@ -11,3 +11,7 @@ Release/
 *.exe
 *.tlog
 *.idb
+
+# Runtime save data (regenerated on play)
+scores.dat
+scores.txt
